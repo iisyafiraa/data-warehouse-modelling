@@ -45,3 +45,6 @@ In this exercise, we will design and implement a Star Schema based on Kimball’
 ![Top 5 Selling Product Category by Quantity Sold](result/analysis_1.jpg)
 ![Top 5 Selling Product Size by Quantity Sold](result/analysis_2.jpg)
 ![Top 3 Promotion ID](result/analysis_3.jpg)
+=======
+# data-warehouse-modelling
+>>>>>>> 423cc2f8656e6a236e47eb1954c0fe2e2ebb71ec
