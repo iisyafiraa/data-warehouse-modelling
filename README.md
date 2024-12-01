@@ -12,9 +12,9 @@ In this exercise, we will design and implement a Star Schema based on Kimball’
    First, we need to upload the provided e-commerce sales data into BigQuery, which will be used to create the necessary tables.
 ![Upload Data](result/upload%20data.jpg)
 
-2. **Build Table dim_fulfilment using DBT**  
+2. **Build Table dim_fulfillment using DBT**  
    Create a dimension table `dim_fulfilment` to represent fulfillment data, including the fulfillment method and fulfillment partner.
-![Table dim_fulfilment](result/dim_fulfillment.jpg)
+![Table dim_fulfillment](result/dim_fulfillment.jpg)
 
 3. **Build Table dim_product using DBT**  
    Create a dimension table `dim_product` containing information about the products such as SKU, style, category, and size.
@@ -43,7 +43,9 @@ In this exercise, we will design and implement a Star Schema based on Kimball’
 9. **Create an Analysis using Star Schema**  
    Develop an analysis based on the star schema model, such as identifying the top-selling products by category, size, and promotion_id
 ![Top 5 Selling Product Category by Quantity Sold](result/analysis_1.jpg)
+
 ![Top 5 Selling Product Size by Quantity Sold](result/analysis_2.jpg)
+
 ![Top 3 Promotion ID](result/analysis_3.jpg)
 =======
 # data-warehouse-modelling
